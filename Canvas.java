@@ -399,7 +399,7 @@ public class Canvas extends JPanel
 				board.setCell(i,j,grid[j][i]);
 		try
 		{
-			Direction dir = aisolver.findBestMove(board,8);
+			Direction dir = aisolver.findBestMove(board,7);
 			return dir;
 		}
 		catch(CloneNotSupportedException e)
