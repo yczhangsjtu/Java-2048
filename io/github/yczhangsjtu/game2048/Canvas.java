@@ -1,3 +1,4 @@
+package io.github.yczhangsjtu.game2048;
 import com.datumbox.opensource.ai.*;
 import com.datumbox.opensource.dataobjects.Direction;
 import com.datumbox.opensource.game.Board;
@@ -5,9 +6,7 @@ import com.datumbox.opensource.game.Board;
 import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.lang.*;
 import javax.swing.*;
-import javax.swing.Timer;
 import java.util.Random;
 
 public class Canvas extends JPanel

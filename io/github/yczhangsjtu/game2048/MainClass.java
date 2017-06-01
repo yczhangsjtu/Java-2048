@@ -1,3 +1,4 @@
+package io.github.yczhangsjtu.game2048;
 import java.awt.*;
 import javax.swing.*;
 
